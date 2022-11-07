@@ -225,4 +225,66 @@ nav {
   }
 }
 
+/* Rivers subpage */
 
+.rivers-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 150px;
+  
+}
+#salmon-river-msg{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-content: center;
+  padding: 80px;
+}
+#salmon-river-msg h2{
+  color: #ffb703;
+}
+#salmon-river-msg p{
+  text-align: left;
+}
+#salmon-river{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: center;
+  padding: 80px;
+}
+#grey-canyon{
+  grid-column: 1/2 ;
+  grid-row: 2/3;
+  justify-content: center;
+  padding: 80px;
+}
+#grey-canyon-msg{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-content: center;
+  padding: 80px;
+}
+#grey-canyon-msg p{
+  text-align: right;
+}
+#grey-canyon-msg h2{
+  color: #ffb703;
+}
+#grand-canyon-msg{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  justify-content: center;
+  padding: 80px;
+}
+#grand-canyon-msg p{
+  text-align: left;
+}
+#grand-canyon-msg h2{
+  color: #ffb703;
+}
+#grand-canyon{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  justify-content: center;
+  padding: 80px;
+}
