@@ -52,6 +52,7 @@ h2{
     text-align: left;
     font-family: 'Lato', Helvetica, sans-serif;
     color: #386641;
+    font-size: medium;
 }
 #p3{
     grid-column: 1/2;
@@ -59,13 +60,14 @@ h2{
     text-align: left;
     font-family: 'Lato', Helvetica, sans-serif;
     color: #386641;
+    font-size: medium;
 }
 h3{
     grid-column: 1/2;
     grid-row: 5/6;
     text-align: left;
     font-family: 'Fuzzy Bubbles';
-    color: #A7C957;
+    color: #BC4749;
 }
 .how-it-works{
     display: grid;
