@@ -23,12 +23,12 @@ nav a:hover {
 .welcome{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, 84px);
-    padding: 70px;
+    grid-template-rows: repeat(5, 100px);
     background-color: #F2E8CF;
 }
 #welcome-img{
-    grid-area: 1, 2, 6, 3;
+    grid-column: 2/3;
+    grid-row: 1/6;
 }
 h2{
     grid-column: 1/2;
@@ -87,7 +87,6 @@ h1{
     font-family: 'Fuzzy Bubbles';
     color:#386641;
     font-size: 2.5em;
-
 }
 #one{
     grid-column: 1/2;
@@ -96,7 +95,6 @@ h1{
     font-family: 'Fuzzy Bubbles';
     font-size: 2em;
     text-align: center;
-
 }
 #two{
     grid-column: 1/2;
@@ -105,8 +103,6 @@ h1{
     font-family: 'Fuzzy Bubbles';
     font-size: 2em;
     text-align: center;
-
-
 }
 #three{
     grid-column: 1/2;
@@ -129,28 +125,24 @@ h1{
     grid-row: 2/3;
     color:white;
     font-family: 'Lato', Helvetica, sans-serif;
-
 }
 #p5{
     grid-column: 2/3;
     grid-row: 3/4;
     color:white;
     font-family: 'Lato', Helvetica, sans-serif;
-
 }
 #p6{
     grid-column: 2/3;
     grid-row: 4/5;
     color:white;
     font-family: 'Lato', Helvetica, sans-serif;
-
 }
 #p7{
     grid-column: 2/3;
     grid-row: 5/6;
     color:white;
     font-family: 'Lato', Helvetica, sans-serif;
-
 }
 footer{
     display: grid;
@@ -163,12 +155,11 @@ footer{
 footer p{
     font-size: 1.5em;
     color: #F2E8CF;
-  }
+}
 footer .social img {
     padding-top: 15px;
     grid-template-columns: 3/4;
-    
-  }
+}
 footer a:hover{
     background-color:#F2E8CF;
     color:#386641;
