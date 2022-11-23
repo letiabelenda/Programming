@@ -28,8 +28,7 @@ nav a:hover {
     background-color: #F2E8CF;
 }
 #welcome-img{
-    grid-column: 2/3;
-    padding-left: 125px;
+    grid-area: 1, 2, 6, 3;
 }
 h2{
     grid-column: 1/2;
@@ -37,13 +36,14 @@ h2{
     font-family: 'Fuzzy Bubbles';
     text-align: center;
     color: #386641;
+    font-size: 2em;
 }
 #p1{
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: left;
     color: #A7C957;
-    font-size: large;
+    font-size: 1.2em;
     font-family: 'Lato', Helvetica, sans-serif;
 }
 #p2{
@@ -52,7 +52,7 @@ h2{
     text-align: left;
     font-family: 'Lato', Helvetica, sans-serif;
     color: #386641;
-    font-size: medium;
+    font-size: 1em;
 }
 #p3{
     grid-column: 1/2;
@@ -60,11 +60,12 @@ h2{
     text-align: left;
     font-family: 'Lato', Helvetica, sans-serif;
     color: #386641;
-    font-size: medium;
+    font-size: 1em;
 }
 h3{
     grid-column: 1/2;
     grid-row: 5/6;
+    font-size: 1.2em;
     text-align: left;
     font-family: 'Fuzzy Bubbles';
     color: #BC4749;
@@ -78,42 +79,78 @@ h3{
 #how-it-works-img{
     grid-column: 3/4;
     grid-row: 1/6;
+    padding-left: 101px;
 }
 h1{
     grid-column: 2/3;
     grid-row: 1/2;
+    font-family: 'Fuzzy Bubbles';
+    color:#386641;
+    font-size: 2.5em;
+
 }
 #one{
     grid-column: 1/2;
     grid-row: 2/3;
+    color:#386641;
+    font-family: 'Fuzzy Bubbles';
+    font-size: 2em;
+    text-align: center;
+
 }
 #two{
     grid-column: 1/2;
     grid-row: 3/4;
+    color:#386641;
+    font-family: 'Fuzzy Bubbles';
+    font-size: 2em;
+    text-align: center;
+
+
 }
 #three{
     grid-column: 1/2;
     grid-row: 4/5;
+    color:#386641;
+    font-family: 'Fuzzy Bubbles';
+    font-size: 2em;
+    text-align: center;
 }
 #four{
     grid-column: 1/2;
     grid-row: 5/6;
+    color:#386641;
+    font-family: 'Fuzzy Bubbles';
+    font-size: 2em;
+    text-align: center;
 }
 #p4{
     grid-column: 2/3;
     grid-row: 2/3;
+    color:white;
+    font-family: 'Lato', Helvetica, sans-serif;
+
 }
 #p5{
     grid-column: 2/3;
     grid-row: 3/4;
+    color:white;
+    font-family: 'Lato', Helvetica, sans-serif;
+
 }
 #p6{
     grid-column: 2/3;
     grid-row: 4/5;
+    color:white;
+    font-family: 'Lato', Helvetica, sans-serif;
+
 }
 #p7{
     grid-column: 2/3;
     grid-row: 5/6;
+    color:white;
+    font-family: 'Lato', Helvetica, sans-serif;
+
 }
 footer{
     display: grid;
