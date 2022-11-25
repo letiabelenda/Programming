@@ -87,7 +87,8 @@ h3{
 #how-it-works-img{
     grid-column: 3/4;
     grid-row: 1/6;
-    padding-left: 101px;
+    padding-left: 10px;
+    background-color: white;
 }
 h1{
     grid-column: 2/3;
