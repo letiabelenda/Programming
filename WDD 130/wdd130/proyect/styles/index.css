@@ -11,19 +11,27 @@ header{
 .logo{
     padding: 15px;
 }
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px;
+}
 nav a{
-    grid-column: 2/3;
-    padding: 80px;
+    text-align: center;
+    padding: 50px;
     color: #F2E8CF;
 }
-nav a:hover {
-    background-color:#F2E8CF;
-    color:#386641;
+.button-box{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 .welcome{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 100px);
+    padding: 25px;
+    text-align: center;
     background-color: #F2E8CF;
 }
 #welcome-img{
