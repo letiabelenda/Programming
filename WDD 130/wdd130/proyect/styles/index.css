@@ -166,6 +166,10 @@ footer p{
     font-size: 1.5em;
     color: #F2E8CF;
 }
+.social{
+    grid-column: 3/4;
+    padding-left: 265px;
+}
 footer .social img {
     padding-top: 15px;
     grid-template-columns: 3/4;
