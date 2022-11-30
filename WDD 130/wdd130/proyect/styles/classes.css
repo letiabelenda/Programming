@@ -51,7 +51,46 @@ h4{
     font-family: 'Leto', Helvetica, sans-serif;
     color: #BC4749;
 }
-
+.subjects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#math{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 90px;
+}
+#chemestry{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 80px;
+}
+#languages{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 90px;
+}
+#geography{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 90px;
+}
+#history{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 90px;
+}
+#natural_sciences{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 90px;
+}
+#physics{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 90px;
+}
 footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
