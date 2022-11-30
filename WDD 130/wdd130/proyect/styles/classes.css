@@ -26,6 +26,23 @@ nav a{
     flex-direction: column;
     padding: 50px;
 }
+.classes-msg{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    border: black 2px solid;
+    background-color: white;
+}
+h2{
+    font-family: 'Fuzzy Bubbles';
+    color:#386641;
+    padding-bottom: 50px;
+}
+h4{
+    font-family: 'Leto', Helvetica, sans-serif;
+    color: #A7C957;
+}
 
 footer{
     display: grid;
