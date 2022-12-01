@@ -59,37 +59,142 @@ h4{
 #math{
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 90px;
+    padding: 80px;
+    text-align: center;
+}
+#math-but{
+    width: 300px;
+    background-color: #F2E8CF;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #BC4749;
+    transition-duration: 0.4s;
+    font-family: "Fuzzy Bubbles";
+    font-size: large;
+}
+#math-but:hover{
+    background-color: #386641;
+    color: white;
 }
 #chemestry{
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 90px;
+    padding: 80px;
+    text-align: center;
+}
+#chemestry-but{
+    width: 300px;
+    background-color: #F2E8CF;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #BC4749;
+    transition-duration: 0.4s;
+    font-family: "Fuzzy Bubbles";
+    font-size: large;
+}
+#chemestry-but:hover{
+    background-color: #386641;
+    color: white;
 }
 #languages{
     grid-column: 3/4;
     grid-row: 1/2;
-    padding: 90px;
+    padding: 80px;
+    text-align: center;
+}
+#languages-but{
+    width: 300px;
+    background-color: #F2E8CF;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #BC4749;
+    transition-duration: 0.4s;
+    font-family: "Fuzzy Bubbles";
+    font-size: large;
+}
+#languages-but:hover{
+    background-color: #386641;
+    color: white;
 }
 #geography{
     grid-column: 1/2;
     grid-row: 2/3;
-    padding: 90px;
+    padding: 80px;
+    text-align: center;
+}
+#geography-but{
+    width: 300px;
+    background-color: #F2E8CF;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #BC4749;
+    transition-duration: 0.4s;
+    font-family: "Fuzzy Bubbles";
+    font-size: large;
+}
+#geography-but:hover{
+    background-color: #386641;
+    color: white;
 }
 #history{
     grid-column: 2/3;
     grid-row: 2/3;
-    padding: 90px;
+    padding: 80px;
+    text-align: center;
+}
+#history-but{
+    width: 300px;
+    background-color: #F2E8CF;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #BC4749;
+    transition-duration: 0.4s;
+    font-family: "Fuzzy Bubbles";
+    font-size: large;
+}
+#history-but:hover{
+    background-color: #386641;
+    color: white;
 }
 #natural_sciences{
     grid-column: 3/4;
     grid-row: 2/3;
-    padding: 90px;
+    padding: 80px;
+    text-align: center;
+}
+#nat-sciences-but{
+    width: 300px;
+    background-color: #F2E8CF;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #BC4749;
+    transition-duration: 0.4s;
+    font-family: "Fuzzy Bubbles";
+    font-size: large;
+}
+#nat-sciences-but:hover{
+    background-color: #386641;
+    color: white;
 }
 #physics{
     grid-column: 2/3;
     grid-row: 3/4;
-    padding: 90px;
+    padding: 80px;
+    text-align: center;
+}
+#physics-but{
+    width: 300px;
+    background-color: #F2E8CF;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #BC4749;
+    transition-duration: 0.4s;
+    font-family: "Fuzzy Bubbles";
+    font-size: large;
+}
+#physics-but:hover{
+    background-color: #386641;
+    color: white;
 }
 footer{
     display: grid;
@@ -109,7 +214,7 @@ footer p{
 }
 footer .social img {
     padding-top: 15px;
-    grid-template-columns: 3/4;
+    grid-column: 3/4;
 }
 footer a:hover{
     background-color:#F2E8CF;
