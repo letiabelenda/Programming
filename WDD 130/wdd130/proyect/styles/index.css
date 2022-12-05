@@ -172,7 +172,6 @@ footer p{
 }
 footer .social img {
     padding-top: 15px;
-    grid-template-columns: 3/4;
 }
 footer a:hover{
     background-color:#F2E8CF;
