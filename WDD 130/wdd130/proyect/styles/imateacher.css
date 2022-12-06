@@ -32,12 +32,23 @@ nav a{
     background-color: #A7C957;
 }
 .adventages{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    grid-template-rows: 300px 420px;
     background-color: #F2E8CF;
 }
-.im-a-teacher-msg{
-    background-color: #F2E8CF;
+#adventages-text{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.advantages-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
 }
 #im-a-teacher-msg{
+    grid-column: 1/3;
+    grid-row: 1/2;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
