@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/imateacher.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,26 +17,27 @@
             <a href="index.html">Home</a>
             <a href="classes.html">Classes</a>
             <a href="imateacher.html">I'm a teacher</a>
-            <div class="button-box">
-                <button type="button">Enter</button>
-                <button type="button">Register</button>
-            </div>
         </nav>
+    <div class="button-box">
+        <button type="button">Enter</button>
+        <button type="button">Register</button>
+    </div>
     </header>
     </div>
-    <main>
-        <section id="registration">
-            <img class = "teacher" src="images/teacher_one.png" alt="Teacher">
+<main>
+    <section id="registration">
+        <img class = "teacher" src="images/teacher_one.png" alt="Teacher">
+        <div id="information">
             <h2>Register now to teach online</h2>
             <form action="/registration-form-page" method="post">
                 <ul>
                     <li>
-                      <label for="name">Name*</label>
-                      <input type="text" id="name" name="user_name" />
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="user_name" />
                     </li>
                     <li>
-                      <label for="mail">E-mail*</label>
-                      <input type="email" id="mail" name="user_email" />
+                        <label for="mail">E-mail*</label>
+                        <input type="email" id="mail" name="user_email" />
                     </li>
                     <li>
                         <label for="phone">Phone Number*</label>
@@ -52,43 +54,43 @@
                     <li class="button">
                         <button type="submit">Sign Up Now!</button>
                     </li>
-                  </ul>
-                
+                </ul>
             </form>
-        </section>
+        </div>
+    </section>
+    <section class="adventages">
         <div id="im-a-teacher-msg">
             <p>We are Virtual Learning, an educational platform for online support classes for high school students</p>
             <p>With us you have an online classroom with a fixed rate of 5% per class taught</p>
             <p>Work flexibly, 100% safely from the comfort of your home and without wasting time in traffic and traveling to educational centers!</p>
         </div>
-        <section class="adventages">
-            <h2>What are some of the advantages of working with us?</h2>
-            <div id="adventages-text">
-                <ul>
-                    <li> A virtual classroom with no time limit</li>
-                    <li> Security in online assistance and the use of personal data </li>
-                    <li> Virtual agenda where you can organize your time and your classes</li>
-                    <li> Low cost </li>     
-                </ul>
-                <h2>..And so more!</h2>
-                <img class = "advantages-img" src="images/teacher_two.png" alt="Adventages Image">
-            </div> 
-        </section>
-    </main>
-    <footer>
-        <p>Virtual Learning &copy; 2022</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-            <a href="https://outlook.live.com/" target="_blank">
-                <img src="images/mail.png" alt="email icon">
-            </a>
-        </div>
-    </footer>
+        <h2>What are some of the advantages of working with us?</h2>
+        <div id="adventages-text">
+            <ul>
+                <li> A virtual classroom with no time limit</li>
+                <li> Security in online assistance and the use of personal data </li>
+                <li> Virtual agenda where you can organize your time and your classes</li>
+                <li> Low cost </li>     
+            </ul>
+            <h2>..And so more!</h2>
+            <img class = "advantages-img" src="images/teacher_two.png" alt="Adventages Image">
+        </div> 
+    </section>
+</main>
+<footer>
+    <p>Virtual Learning &copy; 2022</p>
+    <p><a href="site-plan.html">Site Plan</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+        <a href="https://outlook.live.com/" target="_blank">
+            <img src="images/mail.png" alt="email icon">
+        </a>
+    </div>
+</footer>
 </body>
 </html>
