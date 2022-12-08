@@ -68,9 +68,13 @@ input{
 }
 label{
     margin-left: 70px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: large;
 }
-#submit{
-    
+#sub{
+    margin-left: 70px;
+    font-family: 'Fuzzy Bubbles';
+    font-size: 25px;
 }
 .adventages{
     display: grid;
