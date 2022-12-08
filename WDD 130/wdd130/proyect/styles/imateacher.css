@@ -64,7 +64,7 @@ h2{
 input{
     width: 550px;
     height: 30px;
-    margin: 70px
+    margin: 70px;
 }
 label{
     margin-left: 70px;
@@ -75,6 +75,13 @@ label{
     margin-left: 70px;
     font-family: 'Fuzzy Bubbles';
     font-size: 25px;
+    width: 600px;
+    border-radius: 4px;
+    color: #386641;
+    background-color: #F2E8CF;
+}
+#sub:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .adventages{
     display: grid;
