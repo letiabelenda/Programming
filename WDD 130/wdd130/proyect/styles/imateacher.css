@@ -116,7 +116,7 @@ label{
     padding: 50px;
     border: black 2px solid;
     background-color: white;
-    font-weight: 'Leto', Helvetica, sans-serif;
+    font-family: 'Leto', Helvetica, sans-serif;
 }
 footer{
     display: grid;
@@ -131,7 +131,6 @@ footer p{
     color: #F2E8CF;
 }
 .social{
-    grid-column: 3/4;
     padding-left: 265px;
 }
 footer .social img {
