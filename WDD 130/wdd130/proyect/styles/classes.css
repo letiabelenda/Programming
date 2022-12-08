@@ -26,6 +26,15 @@ nav a{
     flex-direction: column;
     padding: 50px;
 }
+.buttons{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.headerbuttons{
+    width: 150px;
+    margin: 8px 0;
+}
 body{
     background-color: #A7C957;
 }

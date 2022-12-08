@@ -26,29 +26,40 @@ nav a{
     flex-direction: column;
     padding: 50px;
 }
+.buttons{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.headerbuttons{
+    width: 150px;
+    margin: 8px 0;
+}
 #registration{
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
+    grid-template-rows: repeat(7, 171.4px);
     background-color: #A7C957;
+}
+.teacher{
+    grid-column: 1/2;
+    grid-row: 1/8;
 }
 h1{
     font-family: 'Fuzzy Bubbles';
-    grid-row: 1/2;
     text-align: center;
     margin-right: 50px;
     padding: 20px;
     color: #386641;
     font-size: xx-large;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 h2{
     font-family: 'Fuzzy Bubbles';
     color: #386641;
     text-align: center;
     font-size: x-large;
-}
-#information{
-    display: grid;
-    grid-template-rows: repeat(7, 100px);
 }
 input{
     width: 550px;
