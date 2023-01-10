@@ -18,20 +18,19 @@ function fireShip() {
 }
 
 function isHit() {
-    return Math.random() > 0.5;
+  return Math.random() > 0.5;
 }
 
 function shipCanFire() {
-    return shipAmmo > 0 && shipHealth > 0;
+  return shipAmmo > 0 && shipHealth > 0;
 }
-
-function isDestroyed() {
-    return shipHealth <= 0;
+function isDestroyed(health) {
+  return health <= 0;
 }
 
 function reloadShip() {
-    shipHealth--;
-    shipAmmo += 3;
+  shipHealth--;
+  shipAmmo += 3;
 }
 
 function encounter() {
@@ -46,3 +45,5 @@ function encounter() {
     }
   }
 }
+
+encounter();
