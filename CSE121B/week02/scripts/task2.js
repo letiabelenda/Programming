@@ -6,7 +6,7 @@
     let name = "Leticia";
 
 // Step 2: place the value of the name variable into the HTML file (hint: document.querySelector())
-    document.querySelector('#name')
+    let theNameElement = document.querySelector('#name')
 
 // Step 3: declare and instantiate a variable to hold the current year
     let currentYear = "2023";
@@ -28,10 +28,10 @@
 /* ARRAYS */
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
-
+    const foods = ["Lamb", "Sushi", "Ramen"];
 
 // Step 2: place the values of the favorite foods variable into the HTML file
-
+    document.querySelector('#food')
 
 // Step 3: declare and instantiate a variable to hold another favorite food
 
