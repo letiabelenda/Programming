@@ -27,30 +27,30 @@ document.querySelector('img').setAttribute('src', myPicture);
 /* ARRAYS */
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
-//const foods = ["Lamb", "Sushi"];
+let foods = [" Lamb", " Sushi", " Pizza"];
 
 // Step 2: place the values of the favorite foods variable into the HTML file
-//document.querySelector('#food');
+document.querySelector('#food').textContent = foods;
 
 // Step 3: declare and instantiate a variable to hold another favorite food
-//let otherFood = "Ramen";
+let otherFood = " Ramen";
 
 // Step 4: add the variable holding another favorite food to the favorite food array
-//foods.push(otherFood);
+foods.push(otherFood);
 
 // Step 5: repeat Step 2
-//document.querySelector('#food');
+document.querySelector('#food').textContent = foods;
 
 // Step 6: remove the first element in the favorite foods array
-//foods.shift();
+foods.shift();
 
 // Step 7: repeat Step 2
-//document.querySelector('#food');
+document.querySelector('#food').textContent = foods;
 
 // Step 8: remove the last element in the favorite foods array
-//foods.pop();
+foods.pop();
 
 // Step 7: repeat Step 2
-//document.querySelector('#food');
+document.querySelector('#food') = foods;
 
 
