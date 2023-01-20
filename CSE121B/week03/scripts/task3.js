@@ -38,11 +38,9 @@ function subtractNumbers() {
 document.getElementById("subtractNumbers").addEventListener("click", subtractNumbers);
 
 // Step 7: Using arrow functions, repeat Steps 1-5 with new functions named multiply and mulitplyNumbers and HTML form controls with IDs of factor1, factor2, product and multiplyNumbers
-function multiply (number1, number2) {
-    return parseFloat(number1 * number2);
-}
+let multiply = (number1, number2) => parseFloat(number1 * number2);
 
-function multiplyNumbers () {
+function multiplyNumbers() {
     let factor1 = parseFloat(document.getElementById("factor1").value);
     let factor2 = parseFloat(document.getElementById("factor2").value);
 
@@ -53,7 +51,19 @@ function multiplyNumbers () {
 document.getElementById("multiplyNumbers").addEventListener("click", multiplyNumbers);
 
 // Step 8: Using any of the three function declaration types, repeat Steps 1-5 with new functions named divide and divideNumbers and HTML form controls with IDs of dividend, divisor, quotient and divideNumbers
+function divide(number1, number2) {
+    return number1 / number2;
+}
 
+function divideNumbers() {
+    let dividend = parseFloat(document.getElementById("dividend").value);
+    let divisor = parseFloat(document.getElementById("divisor").value);
+
+    let quotient = divide(dividend, divisor);
+
+    document.getElementById("quotient").value = quotient;
+}
+document.getElementById("divideNumbers").addEventListener("click", divideNumbers);
 // Step 9: Test all of the mathematical functionality of the task3.html page.
 
 
