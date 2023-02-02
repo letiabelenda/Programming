@@ -1,4 +1,3 @@
-//modules.js
 const aCourse = {
     code: "CSE121b",
     name: "Javascript Language",
@@ -18,6 +17,10 @@ const aCourse = {
         instructor: "Sis A",
       },
     ],
+    init() {
+      setCourseInfo(this);
+      renderSections(this.sections);
+    },
     changeEnrollment: function (sectionNum, add = true) {
       // find the right section...Array.findIndex will work here
       const sectionIndex = this.sections.findIndex(
@@ -44,12 +47,12 @@ const aCourse = {
   function renderSections(sections) {
     const html = sections.map(
       (section) => `<tr>
-      <td>${section.sectionNum}</td>
-      <td>${section.roomNum}</td>
-      <td>${section.enrolled}</td>
-      <td>${section.days}</td>
-      <td>${section.instructor}</td></tr>`
+        <td>${section.sectionNum}</td>
+        <td>${section.roomNum}</td>
+        <td>${section.enrolled}</td>
+        <td>${section.days}</td>
+        <td>${section.instructor}</td></tr>`
     );
     document.querySelector("#sections").innerHTML = html.join("");
   }
-export default aCourse;
+  export default aCourse;
